@@ -3,7 +3,7 @@ import React from 'react'
 const Card2 = () => {
   return (
     <div>
-<div className="grid grid-cols-1 lg:grid-cols-3 place-content-between content-between gap-6 w-full md:px-10 px-4 py-10">
+<div className="lg:grid grid-cols-1 lg:grid-cols-3 hidden  place-content-between content-between gap-6 w-full md:px-10 px-4 py-10">
     <div className='md:w-full '>
         <div className='py-6'>
      <h3 className='text-[2rem] font-bold text-[rgb(40,70,145)]'>   April 4</h3>
@@ -170,6 +170,7 @@ const Card2 = () => {
         </div>
     </div>
 </div>
+
       </div>
   )
 }
